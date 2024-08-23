@@ -1,0 +1,31 @@
+{
+  "self": "10086",
+  "nodes": [
+    {
+      "node_id": "alice",
+      "party_id": "10086",
+      "address": "127.0.0.1:9010",
+      "listen_addr": "0.0.0.0:9010"
+    },
+    {
+      "node_id": "bob",
+      "party_id": "10010",
+      "address": "127.0.0.1:9020",
+      "listen_addr": "0.0.0.0:9020"
+    }
+  ],
+  "parties": [
+    {
+      "node_id": "alice",
+      "party_id": "10086",
+      "address": "127.0.0.1:9011",
+      "listen_addr": "0.0.0.0:9011"
+    },
+    {
+      "node_id": "bob",
+      "party_id": "10010",
+      "address": "127.0.0.1:9021",
+      "listen_addr": "0.0.0.0:9021"
+    }
+  ]
+}
